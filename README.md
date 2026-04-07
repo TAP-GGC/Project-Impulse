@@ -9,10 +9,14 @@
 <!-- the emojis are not set in stone! If you'd like you can remove them entirely or select your own from https://gist.github.com/rxaviers/7360908 you are welcome to -->
 
 ## :loudspeaker: About
-The objective of the workshop is  ...
+By teaching the basics of a simple circuit, we hope to inspire curiosity in robotics. 
+Understanding how basic components like wires, batteries, and LEDs work together to create a functioning circuit can serve as a foundation for exploring more complex projects.
+
+
+
 <!-- You can look at other TAP projects if you need a better idea of how to describe your workshops objectives -->
 
-This workshop has participants do ...
+<b>What participants will be doing:</b> During our workshop we are going to walk you through how to build a small AI-controlled circuit that works similarly to Project Impulse. 
 
 ## :bulb: Project Information
 <!-- 
