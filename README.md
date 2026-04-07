@@ -9,8 +9,7 @@
 <!-- the emojis are not set in stone! If you'd like you can remove them entirely or select your own from https://gist.github.com/rxaviers/7360908 you are welcome to -->
 
 ## :loudspeaker: About
-By teaching the basics of a simple circuit, we hope to inspire curiosity in robotics. 
-Understanding how basic components like wires, batteries, and LEDs work together to create a functioning circuit can serve as a foundation for exploring more complex projects.
+
 
 
 
@@ -33,11 +32,12 @@ You can select from a range of audiences or a single auidience. Examples:
     K-12
   You will be presenting most often to your peers who are taking introductory technology classes, so more often than not you should be including college in your target audience range. 
 -->
-* <b>Difficulty Level:</b> Choose your workshop difficulty (Beginner/Intermediate/Advanced)
-* <b>Target Audience:</b> K12 - College (edit .md file to view all options presented in the markdown comments)
-* <b>Duration of Workshop:</b> How long your workshop takes (1 hour, 30 minutes, etc.) 
-* <b>Needed Materials:</b> Materials needed to do your workshop (computer with keyboard, sphero, etc.)
-* <b>Learning Outcomes:</b> The primary goal of this project is to teach participants ...
+* <b>Difficulty Level:</b> Beginner
+* <b>Target Audience:</b> College and High School
+* <b>Duration of Workshop:</b> 1 hour - 1 hour and 30 minunte
+* <b>Needed Materials:</b> Arduino Uno, Breadboard, LED Lights, Computer, Jumper Wires (two different colors), Resistor(s)
+* <b>Learning Outcomes:</b> By teaching the basics of a simple circuit, we hope to inspire curiosity in robotics. 
+Understanding how basic components like wires, batteries, and LEDs work together to create a functioning circuit can serve as a foundation for exploring more complex projects.
 * <b>Your Main Technology</b> Name of Technology and then a brief descriptor. You will go more in depth on the technology used in a different section. 
 * [Technology Ambassador Program](https://tapggc.org/) <b>(TAP)</b> is a project-based class that provides a collaborative environment for students to work with their fellow classmates on a semester-long project using technologies of their choice. TAP strives to increase participation in IT through numerous outreach activities and workshops that are designed to showcase the creative and fun side of technology.
 <!-- Commercial Video stored in the Media folder will be linked here -->
@@ -49,7 +49,7 @@ You can select from a range of audiences or a single auidience. Examples:
 ## :pencil2: Team: TEC
 
 <!-- Use the team photo of your choice once youve uploaded it to the team photo folder within the media folder -->
-<img alt="art featuring batman, wonder woman, and superman" src = "media/team photos/Team Photo.JPG" width="" height="300">
+<img alt="a photo of Team TEC" src = "media/team photos/Team Photo.JPG" width="" height="300">
 
 > (From left to right: Batman,  Wonder Woman, Superman.)
 <!-- replace with full names of your team members -->
