@@ -4,19 +4,13 @@
 <p align="center">
   <img alt="Template Logo" src="media/logos/Screenshot 2026-04-09 123838.png" width="" height="350" />
   <h1 align="center">Project Impulse</h1>
-  <p align="center">A project for interested teens and young adults created by team TEC </p>
+  <p align="center">A project for interested teens and young adults created by team TEC.</p>
 </p>
 <!-- the emojis are not set in stone! If you'd like you can remove them entirely or select your own from https://gist.github.com/rxaviers/7360908 you are welcome to -->
 
 ## :loudspeaker: About
-
-
-
-
 <!-- You can look at other TAP projects if you need a better idea of how to describe your workshops objectives -->
-
-<b>What participants will be doing:</b> During our workshop we are going to walk you through how to build a small AI-controlled circuit that works similarly to Project Impulse. 
-
+<b>What participants will be doing:</b><br> During our workshop we are going to walk you through how to build a small AI-controlled circuit that works similarly to Project Impulse. 
 ## :bulb: Project Information
 <!-- 
 Your Options for target audience: 
@@ -38,7 +32,7 @@ You can select from a range of audiences or a single auidience. Examples:
 * <b>Needed Materials:</b> Arduino Uno, Breadboard, LED Lights, Computer, Jumper Wires (two different colors), Resistor(s)
 * <b>Learning Outcomes:</b> By teaching the basics of a simple circuit, we hope to inspire curiosity in robotics. 
 Understanding how basic components like wires, batteries, and LEDs work together to create a functioning circuit can serve as a foundation for exploring more complex projects.
-* <b>Your Main Technology</b> Name of Technology and then a brief descriptor. You will go more in depth on the technology used in a different section. 
+* <b>Main Technology:</b> Arduino IDE, is an intergrated development enviornment that is used to control the Arduino Uno, the brain of our workshop! 
 * [Technology Ambassador Program](https://tapggc.org/) <b>(TAP)</b> is a project-based class that provides a collaborative environment for students to work with their fellow classmates on a semester-long project using technologies of their choice. TAP strives to increase participation in IT through numerous outreach activities and workshops that are designed to showcase the creative and fun side of technology.
 <!-- Commercial Video stored in the Media folder will be linked here -->
 
@@ -67,7 +61,7 @@ Understanding how basic components like wires, batteries, and LEDs work together
 ## :page_with_curl: Project Description
 <!-- A more thorough description of your project. Not a full walkthrough, but describe the different sections of your project and the gist of what participants will be doing when interacting with it and what they'll learn. -->
 
-  Our project is centered around Artificial Intelligence controlling various forms of robotics. Impulse, our self built jumping robot, was the first instrument used to conduct our activities on. We were able to make the robot jump with simple commands given to our AI, Theta! We then attempted to use our AI to control pre built "MakeBlock Robots" which was also a success. For our ASF Demonstration, we used the now discontiued Cozmo Robots to navagate through a pre built maze in which also worked, giving AI the ability to control the robots motor functions, going left, right, forward and backwards! Our workshop consists of using this AI to control LED light circuts that the participants will be taught how to build. We hope to inspire those who find this intreresting to create or do something similar, rather it be creating their own AI, building their own robot, or both!
+&nbsp;&nbsp;&nbsp;&nbsp;Our project is centered around an Artificial Intelligence (Theta) that we built to control various forms of robotics. Impulse, our self built jumping robot, was the first instrument used to conduct our activities on. We were able to make the robot jump with simple commands given to our AI, Theta! We then attempted to use our AI to control pre built "MakeBlock Robots" which was also a success. For our ASF Demonstration, we used the now discontiued Cozmo Robots to navagate through a pre built maze in which also worked, giving AI the ability to control the robots motor functions, going left, right, forward and backwards! Our workshop consists of using this AI to control LED light circuts that the participants will be taught how to build. We hope to inspire those who find this intreresting to create or do something similar, rather it be creating their own AI, building their own robot, or both!
 
 ## :memo: Publications
 <!-- team members, then professors/advisors. "Name of Publication", event, month and day, year, Georgia Gwinnett College. -->
