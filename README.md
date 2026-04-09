@@ -4,7 +4,7 @@
 <p align="center">
   <img alt="Template Logo" src="media/logos/Transparent Version.png" width="" height="350" />
   <h1 align="center">Project Impulse</h1>
-  <p align="center">A project for ... by team ... </p>
+  <p align="center">A project for interested teens and young adults created by team TEC </p>
 </p>
 <!-- the emojis are not set in stone! If you'd like you can remove them entirely or select your own from https://gist.github.com/rxaviers/7360908 you are welcome to -->
 
@@ -51,7 +51,7 @@ Understanding how basic components like wires, batteries, and LEDs work together
 <!-- Use the team photo of your choice once youve uploaded it to the team photo folder within the media folder -->
 <img alt="a photo of Team TEC" src = "media/team photos/Team Photo.JPG" width="" height="300">
 
-> (From left to right: Batman,  Wonder Woman, Superman.)
+> (From left to right: Tia Best,  Eyob Kabeto, Christian Bacon.)
 <!-- replace with full names of your team members -->
 
 * Tia Best
@@ -65,24 +65,23 @@ Understanding how basic components like wires, batteries, and LEDs work together
 
 
 ## :page_with_curl: Project Description
-A more thorough description of your project. Not a full walkthrough, but describe the different sections of your project and the gist of what participants will be doing when interacting with it and what they'll learn.
+<!-- A more thorough description of your project. Not a full walkthrough, but describe the different sections of your project and the gist of what participants will be doing when interacting with it and what they'll learn. -->
+
+Our project is centered around Artificial Intelligence controlling various forms of robotics. Impulse, our self built jumping robot, was the first instrument used to conduct our activities on. We were able to make the robot jump with simple commands given to our AI, Theta! We then attempted to use our AI to control pre built "MakeBlock Robots" which was also a success. For our ASF Demonstration, we used the now discontiued Cozmo Robots to navagate through a pre built maze in which also worked, giving AI the ability to control the robots motor functions, going left, right, forward and backwards! Our workshop consists of using this AI to control LED light circuts that the participants will be taught how to build. We hope to inspire those who find this intreresting to create or do something similar, rather it be creating their own AI, building their own robot, or both!
 
 ## :memo: Publications
 <!-- team members, then professors/advisors. "Name of Publication", event, month and day, year, Georgia Gwinnett College. -->
 1. Team Member, Team Member, Team Member, John Doe, Jane Doe. "A Real Fake Workshop", Fake Event, April 1, 2024, Georgia Gwinnett College.  
 
 ## :open_hands: Outreach
-<i>List the outreach events your team has participated in. </i>
-
-Example:
-
-1. <b>TAP Expo</b>, April 1, 2021, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.
-2. <b>Class Workshops</b>, April 13-15, 2021, Georgia Gwinnett College: to promote the IT field to non-IT students.
+<ol>
+  <li><b>TAP Expo</b>, March 6th, 2026, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.</li>
+  <li><b>ASF @ Piedmont Park</b>, March 21st, 2026, Piedmont Park, Atlanta: to get childern and those in attencence involved and interested in technology.</li>
+</ol>
 
 ## :mag_right: Similar Projects
-<i>Use this section to link to a project done in the TAP program that is related in some way to your own. This can be a sister project done during your TAP semester or a TAP project done in the past. Example: </i> 
-
-If you're interested in more workshops that utilize Scratch, check out [Space Mechanic](https://github.com/TAP-GGC/NinjaTurtles)!
+If you're interested in more workshops that utilize robotics, check out this <a href="https://tapggc.org/techs/sphero/">Sphero TAP Project!</a><br>
+If you're interested in more workshops that utilize AI, check out this <a href="https://tapggc.org/projects/2025/spring/ai-diva/">AI Diva TAP Project!</a>
 
 ## :computer: Technology
 <i> Replace Scratch with whatever technology you're using and make sure to have a logo of that technology uploaded to the technology folder within the media folder. </i>
