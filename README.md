@@ -71,6 +71,9 @@ Understanding how basic components like wires, batteries, and LEDs work together
 <ol>
   <li><b>TAP Expo</b>, March 6th, 2026, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.</li>
   <li><b>ASF @ Piedmont Park</b>, March 21st, 2026, Piedmont Park, Atlanta: to get childern and those in attencence involved and interested in technology.</li>
+  <li><b>SST STaRS Event</b>, April 24th, 2026, Georgia Gwinnett College: an expo used to demonstrate the semester long projects of all student in attendence.</li>
+  <li><b>Norcross Cluster Innovation Showcase</b>, April 25th, 2026, Downtown Norcross: an event we were invited to to showcase our project.</li>
+  <li><b>The 26th CREATES Conference</b>, May 1st, 2026, Georgia Gwinnett College: an expo used to demonstrate the semester long projects of all student in attendence, similar to the STaRS Event just on a larger scale.</li>
 </ol>
 
 ## :mag_right: Similar Projects
