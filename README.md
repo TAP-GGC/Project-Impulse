@@ -43,9 +43,9 @@ Understanding how basic components like wires, batteries, and LEDs work together
 ## :pencil2: Team: TEC
 
 <!-- Use the team photo of your choice once youve uploaded it to the team photo folder within the media folder -->
-<img alt="a photo of Team TEC" src = "media/team photos/Team Photo.JPG" width="" height="300">
+<img alt="a photo of Team TEC" src = "media/team photos/CreatePhoto.jpeg" width="" height="300">
 
-> (From left to right: Tia Best,  Eyob Kabeto, Christian Bacon.)
+> (From left to right: Christian Bacon,  Eyob Kabeto, Tia Best.)
 <!-- replace with full names of your team members -->
 
 * Tia Best
