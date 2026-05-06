@@ -37,10 +37,11 @@ Understanding how basic components like wires, batteries, and LEDs work together
 <!-- Commercial Video stored in the Media folder will be linked here -->
 
 <p align="center">
-  <a href="https://youtube.com/shorts/8xrLxFBG4A8?feature=share">
-    <img src="https://img.youtube.com/vi/8xrLxFBG4A8/maxresdefault.jpg" width="500">
-  </a>
+  <video width="350" controls>
+    <source src="media/videos/impulse_demo.mp4" type="video/mp4">
+  </video>
 </p>
+
 <!-- videos can also be dragged and dropped into markdown files if you want them embedded -->
 
 ## :pencil2: Team: TEC
