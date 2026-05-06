@@ -37,8 +37,8 @@ Understanding how basic components like wires, batteries, and LEDs work together
 <!-- Commercial Video stored in the Media folder will be linked here -->
 
 <p align="center">
-  <video width="350" controls>
-    <source src="media/videos/impulse_demo.mp4" type="video/mp4">
+  <video width="400" controls>
+    <source src="./media/videos/Commercial_TMNT.mp4" type="video/mp4">
   </video>
 </p>
 
