@@ -36,12 +36,7 @@ Understanding how basic components like wires, batteries, and LEDs work together
 * [Technology Ambassador Program](https://tapggc.org/) <b>(TAP)</b> is a project-based class that provides a collaborative environment for students to work with their fellow classmates on a semester-long project using technologies of their choice. TAP strives to increase participation in IT through numerous outreach activities and workshops that are designed to showcase the creative and fun side of technology.
 <!-- Commercial Video stored in the Media folder will be linked here -->
 
-<p align="center">
-  <video width="400" controls>
-    <source src="./media/videos/Commercial_TMNT.mp4" type="video/mp4">
-  </video>
-</p>
-
+[Commercial Video](https://github.com/user-attachments/assets/8944287a-ba6b-4001-a945-11a0633cc045)
 <!-- videos can also be dragged and dropped into markdown files if you want them embedded -->
 
 ## :pencil2: Team: TEC
