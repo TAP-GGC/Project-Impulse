@@ -364,10 +364,7 @@ By completing this workshop, participants will:
 
 <!-- if your project uses scratch, you can reuse any of these instructions (be sure to include CS First alternatives) -->
 ## Short Demo Instructions
-
-<p align="center">
-  <img src="./media/videos/ProjectImpulse.gif" width="700">
-</p>
+[Project Impulse Demo Video](https://github.com/user-attachments/assets/da868057-6f41-49f5-872b-8d0f3eead35e)
 
 This video demonstrates:
 * How to build the LED circuit
