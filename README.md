@@ -8,10 +8,10 @@
 </p>
 <!-- the emojis are not set in stone! If you'd like you can remove them entirely or select your own from https://gist.github.com/rxaviers/7360908 you are welcome to -->
 
-## :loudspeaker: About
+## About
 <!-- You can look at other TAP projects if you need a better idea of how to describe your workshops objectives -->
 <b>What participants will be doing:</b><br> During our workshop we are going to walk you through how to build a small AI-controlled circuit that works similarly to Project Impulse. 
-## :bulb: Project Information
+## Project Information
 <!-- 
 Your Options for target audience: 
   - High School
@@ -39,7 +39,7 @@ Understanding how basic components like wires, batteries, and LEDs work together
 [Commercial Video](https://github.com/user-attachments/assets/8944287a-ba6b-4001-a945-11a0633cc045)
 <!-- videos can also be dragged and dropped into markdown files if you want them embedded -->
 
-## :pencil2: Team: TEC
+## Team: TEC
 
 <!-- Use the team photo of your choice once youve uploaded it to the team photo folder within the media folder -->
 <img alt="a photo of Team TEC" src = "media/team photos/CreatePhoto.jpeg" width="" height="300">
@@ -51,22 +51,22 @@ Understanding how basic components like wires, batteries, and LEDs work together
 * Eyob Kabeto
 * Christian Bacon
 
-## :mortar_board: Advisors
+## Advisors
 <!-- name of the two professors overseeing your TAP class -->
 * Dr. Wei Jin
 * Dr. Xin Xu
 
 
-## :page_with_curl: Project Description
+## Project Description
 <!-- A more thorough description of your project. Not a full walkthrough, but describe the different sections of your project and the gist of what participants will be doing when interacting with it and what they'll learn. -->
 
 &nbsp;&nbsp;&nbsp;&nbsp;Our project is centered around an Artificial Intelligence (Theta) that we built to control various forms of robotics. Impulse, our self built jumping robot, was the first instrument used to conduct our activities on. We were able to make the robot jump with simple commands given to our AI, Theta! We then attempted to use our AI to control pre built "MakeBlock Robots" which was also a success. For our ASF Demonstration, we used the now discontiued Cozmo Robots to navagate through a pre built maze in which also worked, giving AI the ability to control the robots motor functions, going left, right, forward and backwards! Our workshop consists of using this AI to control LED light circuts that the participants will be taught how to build. We hope to inspire those who find this intreresting to create or do something similar, rather it be creating their own AI, building their own robot, or both!
 
-## :memo: Publications
+## Publications
 <!-- team members, then professors/advisors. "Name of Publication", event, month and day, year, Georgia Gwinnett College. -->
 1. Team Member, Team Member, Team Member, John Doe, Jane Doe. "A Real Fake Workshop", Fake Event, April 1, 2024, Georgia Gwinnett College.  
 
-## :open_hands: Outreach
+## Outreach
 <ol>
   <li><b>TAP Expo</b>, March 6th, 2026, Georgia Gwinnett College: to promote the IT field and encourage college students to sign up for TAP.</li>
   <li><b>ASF @ Piedmont Park</b>, March 21st, 2026, Piedmont Park, Atlanta: to get childern and those in attencence involved and interested in technology.</li>
@@ -75,11 +75,11 @@ Understanding how basic components like wires, batteries, and LEDs work together
   <li><b>The 26th CREATES Conference</b>, May 1st, 2026, Georgia Gwinnett College: an expo used to demonstrate the semester long projects of all student in attendence, similar to the STaRS Event just on a larger scale.</li>
 </ol>
 
-## :mag_right: Similar Projects
+## Similar Projects
 If you're interested in more workshops that utilize robotics, check out this <a href="https://tapggc.org/techs/sphero/">Sphero TAP Project!</a><br>
 If you're interested in more workshops that utilize AI, check out this <a href="https://tapggc.org/projects/2025/spring/ai-diva/">AI Diva TAP Project!</a>
 
-## :computer: Technology
+## Technology
 
 <p align="center">
   <img alt="Raspberry Pi Pico Logo" src="media/technology/raspberrypi.png" width="160" height="160"/>
@@ -107,22 +107,22 @@ If you're interested in more workshops that utilize AI, check out this <a href="
   <img alt="Project Impulse Robot" src="media/technology/project_impulse_setup.png" width="500" height="280"/>
 </p>
 
-## 🔧 Project Setup / Installation
+## Project Setup / Installation
 
 Before beginning the workshop, participants will first build a simple LED circuit and then connect it to the Delta AI system for interactive control.
 
 ---
 
-### 🧠 Understanding Your Tools: The Breadboard
+### Understanding Your Tools: The Breadboard
 
 A breadboard is a tool used to create temporary electronic circuits without soldering. It allows users to safely prototype and test circuits quickly.
 
-#### ⚡ Power Rails
+#### Power Rails
 The long vertical columns on the sides of the breadboard (usually marked with red `+` and blue `-`) are connected all the way down the board.
 
 These rails distribute power throughout the circuit.
 
-#### 🔌 Terminal Strips
+#### Terminal Strips
 The horizontal rows in the center section are connected in groups of five.
 
 For example:
@@ -134,14 +134,14 @@ For example:
 
 This allows components to share electrical connections.
 
-#### ➖ Center Divider
+#### Center Divider
 The gap running down the middle separates the left and right sides of the breadboard.
 
 This helps isolate different sections of a circuit.
 
 ---
 
-### 🛠️ Phase 1: Building the Circuit
+### Phase 1: Building the Circuit
 
 #### Step 1 — Place the LED
 
@@ -154,7 +154,7 @@ Insert the LED into the breadboard.
 * The **shorter leg** is the:
   * Negative side (**Cathode**)
 
-✅ Correct LED orientation is required for the circuit to work properly.
+ Correct LED orientation is required for the circuit to work properly.
 
 ---
 
@@ -198,11 +198,11 @@ Take a **red jumper wire** and:
 
 pin on the Arduino Uno.
 
-✅ If the LED lights up, your circuit was built correctly.
+ If the LED lights up, your circuit was built correctly.
 
 ---
 
-### 🤖 Phase 2: Opening the AI Software
+###  Phase 2: Opening the AI Software
 
 #### Step 1 — Locate the Project Folder
 
@@ -269,11 +269,11 @@ Wait until the terminal displays:
 Delta: System initialized. Hardware status: OK.
 ```
 
-✅ This means Delta is connected and ready.
+ This means Delta is connected and ready.
 
 ---
 
-### ⚙️ Phase 3: Switching to AI Control
+###  Phase 3: Switching to AI Control
 
 Now you will transfer control of the LED from direct power to the Delta AI system.
 
@@ -307,7 +307,7 @@ on the Arduino Uno.
 
 The LED may temporarily turn off.
 
-✅ This is normal because Delta is now waiting for commands.
+ This is normal because Delta is now waiting for commands.
 
 ---
 
@@ -347,7 +347,7 @@ Delta will process your commands and control the circuit in real time.
 
 ---
 
-### 🎯 Learning Outcomes
+###  Learning Outcomes
 
 By completing this workshop, participants will:
 
