@@ -366,9 +366,7 @@ By completing this workshop, participants will:
 ## Short Demo Instructions
 
 <p align="center">
-  <video width="700" controls>
-    <source src="./media/videos/ProjectImpulse.mp4" type="video/mp4">
-  </video>
+  <img src="./media/videos/ProjectImpulse.gif" width="700">
 </p>
 
 This video demonstrates:
