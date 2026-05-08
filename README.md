@@ -255,7 +255,7 @@ Add Python to PATH
 Install Now
 ```
 
-⏳ Installation may take several minutes.
+ Installation may take several minutes.
 
 ---
 
@@ -311,7 +311,7 @@ The LED may temporarily turn off.
 
 ---
 
-### 💡 Phase 4: Testing Delta
+###  Phase 4: Testing Delta
 
 Once Delta is fully initialized, you can begin interacting with the AI assistant.
 
