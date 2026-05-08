@@ -367,7 +367,7 @@ By completing this workshop, participants will:
 
 <p align="center">
   <video width="700" controls>
-    <source src="./media/videos/ProjectImpulse.mov" type="video/mp4">
+    <source src="./media/videos/ProjectImpulse.mp4" type="video/mp4">
   </video>
 </p>
 
