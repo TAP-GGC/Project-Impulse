@@ -362,31 +362,25 @@ By completing this workshop, participants will:
 * Explore how AI systems interact with physical electronics
 * Combine software, hardware, and robotics into one interactive project
 
-### Opening a blank Scratch page 
-[Click here to view instructions](/documents/tutorial%20materials/Opening%20a%20blank%20Scratch%20page.md)
-
-[Video with Scratch instructions](https://youtu.be/v-GUbj7DMEE)
-
 <!-- if your project uses scratch, you can reuse any of these instructions (be sure to include CS First alternatives) -->
-## CS First Installation Walkthrough
-[Click here to view instructions](/documents/tutorial%20materials/CS%20FIRST/CS%20First%20Walkthrough.md)
+## Short Demo Instructions
 
-### Getting to the game 
-[Click here to view instructions](/documents/tutorial%20materials/Getting%20to%20the%20Game.md)
+<p align="center">
+  <video width="700" controls>
+    <source src="./media/videos/ProjectImpulse.mov" type="video/mp4">
+  </video>
+</p>
 
-## Usage
-<i> Describe HOW to use your game. </i> 
-Example: 
-1. Press the Left arrow key to move to the left.
-2. Press the Right arrow key to move to the right.
-3. Press the Up arrow key to move up.
-4. Press the Down arrow key to move down.
-5. You may also replace the arrow keys with a Makey Makey. 
+This video demonstrates:
+* How to build the LED circuit
+* How to launch the Delta AI assistant
+* How to connect the Arduino to AI control
+* Example commands such as:
+  * `Turn light on`
+  * `Blink light fast`
+  * `Turn light off`
+---
 
-## Short Demo Instructions 
-[Demo Video on how to install and play our game](https://youtu.be/mA80Aa55t-U)
+## Workshop Instructions
 
-## Workshop Instructions 
-[Click here to view workshop walkthrough pdf file](/documents/tutorial%20materials/Scratch%20Workshop%20Walkthrough.pdf)
-
-[Our Game Workshop Video](https://youtu.be/Mtsre0iMStM)
+[Click here to view workshop walkthrough pdf file](/documents/tutorial%20materials/Project_Impulse_Workshop_Walkthrough.pdf)
