@@ -85,24 +85,282 @@ If you're interested in more workshops that utilize robotics, check out this <a 
 If you're interested in more workshops that utilize AI, check out this <a href="https://tapggc.org/projects/2025/spring/ai-diva/">AI Diva TAP Project!</a>
 
 ## :computer: Technology
-<i> Replace Scratch with whatever technology you're using and make sure to have a logo of that technology uploaded to the technology folder within the media folder. </i>
-<!-- be sure to use the alt text feature in case anybody viewing your repo is using  screen reader! you want your workshop to be as accessible as possible -->
-<p align="center">
-  <img alt="Scratch Logo" src = "media/technology/scratch logo.png" width="200" height="200"/>
-</p>
-
-* [Scratch](https://scratch.mit.edu/) is a block-based programming language developed by the MIT Media Lab as an education tool for children to learn computing in a fun and interactive way.
-* Scratch has drag-and-drop interfaces. Unlike text-based programming language like Java or C where you physically type every line of code, in Scratch, you can drag and drop pre-made codes and organize them into an algorithm. It's like solving a jigsaw puzzle!
-* Explain why your team chose this technology for this workshop.
 
 <p align="center">
-<img src = "media/technology/block-based language.png" width ="400" height="200">
+  <img alt="Raspberry Pi Pico Logo" src="media/technology/raspberrypi.png" width="160" height="160"/>
+  <img alt="Servo Motor" src="media/technology/servo_motor.png" width="160" height="160"/>
+  <img alt="3D Printing" src="media/technology/3d_printing.png" width="160" height="160"/>
 </p>
 
-## Project Setup/Installation 
-<i> This section is dedicated to linking to .md files in your documents/tutorial/ folder that will contain instructions on installation
+* <b>Raspberry Pi Pico</b> – The Raspberry Pi Pico acts as the main controller for Project Impulse. It processes commands and controls the motors, servos, and sensors used throughout the robot.
 
-Your repo doesn't have to have every section used below. This is just an example so you can get an idea of what your own repo should look like</i>
+* <b>BTS7960 Motor Driver</b> – The BTS7960 motor driver allows high-current control of the DC gear motor. This component gives the robot enough power to compress the springs used for jumping.
+
+* <b>DC Gear Motor</b> – The DC gear motor is responsible for pulling and compressing the springs before launch. The gearing provides high torque for controlled movement and force.
+
+* <b>Servo Motors</b> – Servo motors are used for mechanisms such as release systems and directional control. They allow precise movement during jumping and balancing actions.
+
+* <b>Compression Springs</b> – Compression springs store mechanical energy which is released to launch the robot into the air. These springs are one of the main components that make jumping possible.
+
+* <b>Limit Switches</b> – Limit switches help detect positions and movement limits within the robot. They improve safety and help automate the jumping sequence.
+
+* <b>3D Printing</b> – Many custom parts of Project Impulse were designed and manufactured using 3D printing. This allowed our team to rapidly prototype parts and create lightweight custom structures for the robot.
+
+* Our team selected these technologies because they combine robotics, mechanical engineering, electronics, and programming into one project. Together, these components allowed us to create an AI-assisted spring-powered jumping robot while giving participants hands-on exposure to real-world engineering concepts.
+
+<p align="center">
+  <img alt="Project Impulse Robot" src="media/technology/project_impulse_setup.png" width="500" height="280"/>
+</p>
+
+## 🔧 Project Setup / Installation
+
+Before beginning the workshop, participants will first build a simple LED circuit and then connect it to the Delta AI system for interactive control.
+
+---
+
+### 🧠 Understanding Your Tools: The Breadboard
+
+A breadboard is a tool used to create temporary electronic circuits without soldering. It allows users to safely prototype and test circuits quickly.
+
+#### ⚡ Power Rails
+The long vertical columns on the sides of the breadboard (usually marked with red `+` and blue `-`) are connected all the way down the board.
+
+These rails distribute power throughout the circuit.
+
+#### 🔌 Terminal Strips
+The horizontal rows in the center section are connected in groups of five.
+
+For example:
+* If a wire is plugged into row `1a`, it is electrically connected to:
+  * `1b`
+  * `1c`
+  * `1d`
+  * `1e`
+
+This allows components to share electrical connections.
+
+#### ➖ Center Divider
+The gap running down the middle separates the left and right sides of the breadboard.
+
+This helps isolate different sections of a circuit.
+
+---
+
+### 🛠️ Phase 1: Building the Circuit
+
+#### Step 1 — Place the LED
+
+Insert the LED into the breadboard.
+
+**Important:**
+* The **longer leg** is the:
+  * Positive side (**Anode**)
+
+* The **shorter leg** is the:
+  * Negative side (**Cathode**)
+
+✅ Correct LED orientation is required for the circuit to work properly.
+
+---
+
+#### Step 2 — Add the Resistor
+
+Insert:
+* One end of the resistor into the same row as the shorter LED leg.
+* The other end into a different empty row.
+
+The resistor limits electrical current and protects the LED from damage.
+
+---
+
+#### Step 3 — Create the Ground Connection
+
+Take a **black jumper wire** and:
+
+* Plug one end into the same row as the empty side of the resistor.
+* Plug the other end into the:
+
+```text
+GND
+```
+
+pin on the Arduino Uno.
+
+This completes the ground path of the circuit.
+
+---
+
+#### Step 4 — Initial Power Test
+
+Take a **red jumper wire** and:
+
+* Plug one end into the same row as the longer LED leg.
+* Plug the other end into the:
+
+```text
+3.3V
+```
+
+pin on the Arduino Uno.
+
+✅ If the LED lights up, your circuit was built correctly.
+
+---
+
+### 🤖 Phase 2: Opening the AI Software
+
+#### Step 1 — Locate the Project Folder
+
+Find the folder on your computer named:
+
+```text
+Delta
+```
+
+This folder contains the Delta AI assistant software used during the workshop.
+
+---
+
+#### Step 2 — Run the Startup Script
+
+Inside the Delta folder, double-click:
+
+```text
+run_windows
+```
+
+This script automatically launches the Delta AI system.
+
+---
+
+#### Step 3 — Python Installation Check
+
+Delta will automatically verify that Python is installed.
+
+**If Python Is Missing**
+
+A setup window will appear asking to install Python.
+
+1. Click:
+
+```text
+Yes
+```
+
+2. When the installer opens:
+   * Make sure to check:
+
+```text
+Add Python to PATH
+```
+
+3. Then click:
+
+```text
+Install Now
+```
+
+⏳ Installation may take several minutes.
+
+---
+
+#### Step 4 — Wait for Delta to Initialize
+
+Once installation finishes, Delta will launch automatically.
+
+Wait until the terminal displays:
+
+```text
+Delta: System initialized. Hardware status: OK.
+```
+
+✅ This means Delta is connected and ready.
+
+---
+
+### ⚙️ Phase 3: Switching to AI Control
+
+Now you will transfer control of the LED from direct power to the Delta AI system.
+
+---
+
+#### Step 1 — Locate the Red Jumper Wire
+
+Find the red jumper wire currently connected to:
+
+```text
+3.3V
+```
+
+on the Arduino Uno.
+
+---
+
+#### Step 2 — Move the Wire
+
+Unplug the wire from `3.3V` and move it to:
+
+```text
+Pin 11 (GPIO 11)
+```
+
+on the Arduino Uno.
+
+---
+
+#### Step 3 — Observe the LED
+
+The LED may temporarily turn off.
+
+✅ This is normal because Delta is now waiting for commands.
+
+---
+
+### 💡 Phase 4: Testing Delta
+
+Once Delta is fully initialized, you can begin interacting with the AI assistant.
+
+Try typing:
+
+```text
+Blink light fast
+```
+
+The LED should begin blinking rapidly, showing that Delta successfully controls the circuit.
+
+---
+
+#### Other Commands You Can Try
+
+```text
+Turn light on
+```
+
+```text
+Turn light off
+```
+
+```text
+Blink light slowly
+```
+
+```text
+Let's run a scenario
+```
+
+Delta will process your commands and control the circuit in real time.
+
+---
+
+### 🎯 Learning Outcomes
+
+By completing this workshop, participants will:
+
+* Learn how simple electronic circuits function
+* Understand how breadboards and LEDs work
+* Gain experience using Arduino hardware
+* Explore how AI systems interact with physical electronics
+* Combine software, hardware, and robotics into one interactive project
 
 ### Opening a blank Scratch page 
 [Click here to view instructions](/documents/tutorial%20materials/Opening%20a%20blank%20Scratch%20page.md)
@@ -132,5 +390,3 @@ Example:
 [Click here to view workshop walkthrough pdf file](/documents/tutorial%20materials/Scratch%20Workshop%20Walkthrough.pdf)
 
 [Our Game Workshop Video](https://youtu.be/Mtsre0iMStM)
-
-
