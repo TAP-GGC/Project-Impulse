@@ -368,5 +368,4 @@ This video demonstrates:
 
 ## Workshop Instructions
 
-[Click here to view workshop walkthrough pdf file](/documents/tutorial%20materials/Project_Impulse_Workshop_Walkthrough.pdf)
-
+[Click here to view the Workshop Walk Through](/documents/tutorial%20materials/workshop_walkthrough.docx)
