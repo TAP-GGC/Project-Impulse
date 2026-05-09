@@ -368,4 +368,4 @@ This video demonstrates:
 
 ## Workshop Instructions
 
-[Click here to view the Workshop Walk Through](/documents/tutorial%20materials/workshop_walkthrough.docx)
+[Click here to view the Workshop Walk Through](/documents/tutorial%20materials/workshop walkthrough.pdf)
