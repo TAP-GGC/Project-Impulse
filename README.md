@@ -64,7 +64,7 @@ Understanding how basic components like wires, batteries, and LEDs work together
 
 ## Publications
 <!-- team members, then professors/advisors. "Name of Publication", event, month and day, year, Georgia Gwinnett College. -->
-1. Team Member, Team Member, Team Member, John Doe, Jane Doe. "A Real Fake Workshop", Fake Event, April 1, 2024, Georgia Gwinnett College.  
+1. Eyob Kabeto, Tia Best, Christian Bacon, Dr. Wei Jin, Dr. Xin Xu. "Project Impulse", Technology Ambassador Program Expo, March 6, 2026, Georgia Gwinnett College. 
 
 ## Outreach
 <ol>
